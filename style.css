@@ -1,0 +1,82 @@
+/* colors palette: muskgreen: #606C38, darkgreen: #283618, White: #FEFAE0, Lightbrown: #DDA15E, Darker brown: #BC6C25 */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  max-width: 100svw;
+}
+.meny {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: #dda15e;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+.meny li {
+  color: #fefae0;
+}
+/* Styling for linkene/meny items med icon */
+.meny a {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #606c38;
+  padding: 15px;
+  border-radius: 35%;
+}
+.craftsville-logo {
+  display: block;
+  max-width: 40svw;
+  width: 40svw;
+  max-height: 40svh;
+  height: 40svh;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100svw;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 100svw;
+}
+.workshop-seksjon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  max-width: 100svw;
+}
+.workshop-seksjon form,
+iframe,
+p {
+  max-width: 100%;
+}
+button {
+  padding: 10px;
+}
+textarea {
+  resize: none;
+}
+.hovedside {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100svw;
+  gap: 15px;
+  background-color: #dda15e;
+  color: black;
+}
+.feedback-form,
+.feedback-users {
+  border: #283618 6px solid;
+  padding: 2rem;
+}

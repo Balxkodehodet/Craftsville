@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Craftsville</title>
+  </head>
+  <header>
+    <ul class="meny">
+        <a href="index.html"><img class="img-feedback" src="./images/home.png" alt="Home icon">
+        <li>Hjem</li></a>
+      
+        <a href="feedback.html"><img class="img-feedback" src="./images/customer-feedback.png" alt="Feedback icon">
+        <li>Feedback</li></a>
+      
+      <a href="galleri.html"><img class="img-feedback" src="./images/image-gallery.png" alt="Gallery icon">
+        <li>Galleri</li></a>
+      
+      <a href="booking.html"><img class="img-feedback" src="./images/appointment.png" alt="Booking icon">
+        <li>Booking</li></a>
+      
+    </ul>
+  </header>
+  <body>
+    <section class="hero">
+        <img
+          class="craftsville-logo"
+          src="./images/craftsville logo.png"
+          alt="A logo of a lit candle and a painting brush"
+        />
+        <p><h1>Craftsville</h1></p>
+      </section>
+      <section class="workshop-seksjon">
+      <form>
+        <label for="name">Navn:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="workshop">Velg kunstform:</label>
+        <select id="workshop" name="workshop">
+            <option value="Mosaikk">Mosaikk kunst - 400 kr
+                Sett inkluderer: Ramme, A4 størrelse treplate, små fargede steiner, gummi.</option>
+            <option value="Akvarell">Akvarellmaling - 200 kr
+                Sett inkluderer: Ramme, akvarellpapir med designmal, akvarellfarger, pensler.</option>
+            <option value="Lerret">Lerretsmaling - 300 kr
+                Sett inkluderer: Ramme, akrylpapir med designmal, akrylfarger, pensler.</option>
+        </select><br>
+        <label for="date">Dato:</label>
+        <input type="date" id="date" name="date"><br>
+        <label for="time">Tid:</label>
+        <input type="time" id="time" name="time">
+      </form>
+      <p><h2>Velg dato som passer her: <br><br></h2></p>
+      <iframe src="https://calendar.google.com/calendar/embed?src=balx042025%40gmail.com&ctz=Europe%2FOslo" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </section>
+  </body>
+</html>
