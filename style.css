@@ -114,6 +114,8 @@ title-text {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100svh;
+  height: 100svh;
 }
 .column img {
   max-width: 100%;
@@ -145,12 +147,20 @@ title-text {
   padding: 1%;
   border-radius: 100%;
 }
+.back-to-top a {
+  text-decoration: none;
+  color: #fefae0;
+}
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  bottom: 1%;
   background-color: #283618;
   color: #fefae0;
   padding: 1%;
   margin: 1%;
-  bottom: 0;
 }
 footer a {
   color: #fefae0;
