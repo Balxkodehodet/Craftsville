@@ -2,9 +2,20 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 header {
   max-width: 100svw;
+  width: 100svw;
+}
+body {
+  max-width: 100svw;
+  max-height: 100svh;
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .meny {
   display: flex;
@@ -13,6 +24,7 @@ header {
   list-style-type: none;
   background-color: #dda15e;
   max-width: 100%;
+  width: 100%;
   flex-wrap: wrap;
 }
 .meny li {
@@ -65,6 +77,8 @@ button {
 }
 textarea {
   resize: none;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 .hovedside {
   display: flex;
@@ -77,6 +91,25 @@ textarea {
 }
 .feedback-form,
 .feedback-users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  flex: 1;
+  max-width: 100svw;
   border: #283618 6px solid;
   padding: 2rem;
+}
+.feedback-form p h2 {
+  word-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
+}
+title-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
