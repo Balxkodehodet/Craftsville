@@ -9,6 +9,7 @@ header {
   width: 100svw;
 }
 body {
+  font-family: "Edu NSW ACT Hand Pre", cursive;
   max-width: 100svw;
   max-height: 100svh;
   width: 100svw;
@@ -85,8 +86,8 @@ textarea {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 100svw;
-  gap: 15px;
+  max-width: 98%;
+  gap: 2%;
   background-color: #dda15e;
   color: black;
 }
@@ -99,7 +100,7 @@ textarea {
   gap: 15px;
   flex-wrap: wrap;
   flex: 1;
-  max-width: 100svw;
+  max-width: 100%;
   border: #283618 6px solid;
   padding: 2rem;
 }
@@ -124,6 +125,8 @@ title-text {
   display: block;
   flex-direction: column;
   max-width: 30%;
+  flex-wrap: wrap;
+  flex: 1;
 }
 .gallery {
   display: flex;
@@ -132,4 +135,24 @@ title-text {
   flex-wrap: wrap;
   max-width: 80%;
   width: 80%;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  background-color: #283618;
+  color: #fefae0;
+  padding: 1%;
+  border-radius: 100%;
+}
+footer {
+  background-color: #283618;
+  color: #fefae0;
+  padding: 1%;
+  margin: 1%;
+  bottom: 0;
+}
+footer a {
+  color: #fefae0;
+  text-decoration: none;
 }
