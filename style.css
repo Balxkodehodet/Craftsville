@@ -42,7 +42,10 @@ body {
   text-decoration: none;
   background-color: #606c38;
   padding: 15px;
-  border-radius: 35%;
+  border-radius: 40%;
+}
+.meny a:hover {
+  transform: scale(1.1);
 }
 .craftsville-logo {
   display: block;
