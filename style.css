@@ -126,7 +126,7 @@ title-text {
 .column {
   display: block;
   flex-direction: column;
-  max-width: 30%;
+  max-width: 40%;
   flex-wrap: wrap;
   flex: 1;
 }
@@ -165,4 +165,8 @@ footer {
 footer a {
   color: #fefae0;
   text-decoration: none;
+}
+/* Id til select i form for å sette max width 100% så ikke en av options strekker seg langt utover vidden til skjermen  */
+#workshop {
+  max-width: 100%;
 }
