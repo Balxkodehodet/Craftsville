@@ -120,15 +120,21 @@ title-text {
 .column img {
   max-width: 100%;
   width: 100%;
-  max-height: 80%;
-  height: 80%;
+  height: auto;
 }
 .column {
-  display: block;
+  display: flex;
   flex-direction: column;
-  max-width: 40%;
+  width: 100%;
   flex-wrap: wrap;
   flex: 1;
+}
+figure {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  flex-wrap: wrap;
+  margin-right: 10%;
 }
 .gallery {
   display: flex;
